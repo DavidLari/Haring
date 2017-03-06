@@ -21,6 +21,9 @@ extension String {
   
   /// Converts each 4 digit characters to its String form  (e.g. "0048" -> "H")
   func unescapeUTF16() -> String? {
+    
+    guard characters.count > 4 else { return nil }
+    
     var utf16Array = [UInt16]()
     stride(from: 0, to: characters.count, by: 4).forEach {
       let startIndex = characters.index(characters.startIndex, offsetBy: $0)
