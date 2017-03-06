@@ -37,7 +37,7 @@ open class MarkdownHeader: MarkdownLevelElement {
   open func attributesForLevel(_ level: Int) -> [String: AnyObject] {
     var attributes = self.attributes
     if let font = font {
-      let headerFontSize: CGFloat = font.pointSize + (CGFloat(level) * CGFloat(fontIncrease))
+      let headerFontSize: CGFloat = font.pointSize + (CGFloat(6 - level) * CGFloat(fontIncrease))
       attributes[NSFontAttributeName] = font.withSize(headerFontSize)
     }
     return attributes
