@@ -1,33 +1,33 @@
-![Logo](https://raw.githubusercontent.com/ivanbruel/MarkdownKit/master/Resources/MarkdownKitLogo.png)
+![Logo](https://raw.githubusercontent.com/ivanbruel/Haring/master/Resources/HaringLogo.png)
 
-MarkdownKit
+Haring
 =========
 
-[![Version](https://img.shields.io/cocoapods/v/MarkdownKit.svg?style=flat)](http://cocoapods.org/pods/MarkdownKit)
+[![Version](https://img.shields.io/cocoapods/v/Haring.svg?style=flat)](http://cocoapods.org/pods/Haring)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![License](https://img.shields.io/cocoapods/l/MarkdownKit.svg?style=flat)](http://cocoapods.org/pods/MarkdownKit)
-[![Platform](https://img.shields.io/cocoapods/p/MarkdownKit.svg?style=flat)](http://cocoapods.org/pods/MarkdownKit)
+[![License](https://img.shields.io/cocoapods/l/Haring.svg?style=flat)](http://cocoapods.org/pods/Haring)
+[![Platform](https://img.shields.io/cocoapods/p/Haring.svg?style=flat)](http://cocoapods.org/pods/Haring)
 
-MarkdownKit is a customizable and extensible Markdown parser for iOS. It supports many of the standard Markdown elements through the use of Regular Expressions. It also allows customization of font and color attributes for all the Markdown elements.
+Haring is a customizable and extensible Markdown parser for iOS. It supports many of the standard Markdown elements through the use of Regular Expressions. It also allows customization of font and color attributes for all the Markdown elements.
 
 ## Screenshot
 
-![Example](https://raw.githubusercontent.com/ivanbruel/MarkdownKit/master/Resources/MarkdownKitExample.png)
+![Example](https://raw.githubusercontent.com/ivanbruel/Haring/master/Resources/HaringExample.png)
 
 ## Installation
 
 ### Installation via CocoaPods
 
-MarkdownKit is available through [CocoaPods](http://cocoapods.org). CocoaPods is a dependency manager that automates and simplifies the process of using 3rd-party libraries like MarkdownKit in your projects. You can install CocoaPods with the following command:
+Haring is available through [CocoaPods](http://cocoapods.org). CocoaPods is a dependency manager that automates and simplifies the process of using 3rd-party libraries like Haring in your projects. You can install CocoaPods with the following command:
 
 ```ruby
 gem install cocoapods
 ```
 
-To integrate MarkdownKit into your Xcode project using CocoaPods, simply add the following line to your Podfile:
+To integrate Haring into your Xcode project using CocoaPods, simply add the following line to your Podfile:
 
 ```ruby
-pod "MarkdownKit"
+pod "Haring"
 ```
 
 Afterwards, run the following command:
@@ -38,7 +38,7 @@ pod install
 
 ### Installation via Carthage
 
-MarkdownKit is available through [Carthage](https://github.com/Carthage/Carthage). Carthage is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
+Haring is available through [Carthage](https://github.com/Carthage/Carthage). Carthage is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
 
 You can install Carthage via [Homebrew](http://brew.sh) with the following command:
 
@@ -47,10 +47,10 @@ brew update
 brew install carthage
 ```
 
-To integrate MarkdownKit into your Xcode project using Carthage, simply add the following line to your Cartfile:
+To integrate Haring into your Xcode project using Carthage, simply add the following line to your Cartfile:
 
 ```ruby
-github "ivanbruel/MarkdownKit"
+github "ivanbruel/Haring"
 ```
 
 Afterwards, run the following command:
@@ -79,12 +79,12 @@ carthage update
 + List
 
 `code` or ```code```
-[Links](http://github.com/ivanbruel/MarkdownKit/)
+[Links](http://github.com/ivanbruel/Haring/)
 ```
 
 ## Usage
 
-In order to use MarkdownKit to transform Markdown into NSAttributedString, all you have to do is create an instance of `MarkdownParser` and call the `parse(_)` function.
+In order to use Haring to transform Markdown into NSAttributedString, all you have to do is create an instance of `MarkdownParser` and call the `parse(_)` function.
 
 ```swift
 let markdownParser = MarkdownParser()
@@ -107,7 +107,7 @@ markdownParser.header.fontIncrease = 4
 To add new Markdown elements all you have to do is implement the `MarkdownElement` protocol (or descendants) and add it to the `MarkdownParser`.
 
 ```swift
-import MarkdownKit
+import Haring
 
 class MarkdownSubreddit: MarkdownLink {
 
@@ -142,8 +142,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 This library is heavily inspired in [TSMarkdownParser](https://github.com/laptobbe/TSMarkdownParser) and also [SwiftyMarkdown](https://github.com/SimonFairbairn/SwiftyMarkdown).
 
-Special thanks to [Michael Brown](https://github.com/mluisbrown) for helping out with the [UTF-16 Escaping/Unescaping](https://github.com/ivanbruel/MarkdownKit/blob/master/MarkdownKit/Classes/Extensions/String%2BUTF16.swift).
+Special thanks to [Michael Brown](https://github.com/mluisbrown) for helping out with the [UTF-16 Escaping/Unescaping](https://github.com/ivanbruel/Haring/blob/master/Haring/Classes/Extensions/String%2BUTF16.swift).
 
 ## License
 
-MarkdownKit is available under the MIT license. See the LICENSE file for more info.
+Haring is available under the MIT license. See the LICENSE file for more info.
