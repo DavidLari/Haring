@@ -1,0 +1,6 @@
+framework module Haring {
+  umbrella header "Haring-umbrella.h"
+
+  export *
+  module * { export * }
+}
