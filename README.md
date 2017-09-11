@@ -1,4 +1,4 @@
-![Logo](https://raw.githubusercontent.com/ivanbruel/Haring/master/Resources/HaringLogo.png)
+![Logo](https://raw.githubusercontent.com/davidlari/Haring/master/Resources/HaringLogo.png)
 
 Haring
 =========
@@ -10,9 +10,13 @@ Haring
 
 Haring is a customizable and extensible Markdown parser for iOS. It supports many of the standard Markdown elements through the use of Regular Expressions. It also allows customization of font and color attributes for all the Markdown elements.
 
+Haring was forked from Ivan Bruel's MarkdownKit which appears to be no longer maintained.
+
+Haring is named after PopArt artist [Keith Haring](https://en.wikipedia.org/wiki/Keith_Haring).
+
 ## Screenshot
 
-![Example](https://raw.githubusercontent.com/ivanbruel/Haring/master/Resources/HaringExample.png)
+![Example](https://raw.githubusercontent.com/ivanbruel/MarkdownKit/master/Resources/MarkdownKitExample.png)
 
 ## Installation
 
@@ -50,7 +54,7 @@ brew install carthage
 To integrate Haring into your Xcode project using Carthage, simply add the following line to your Cartfile:
 
 ```ruby
-github "ivanbruel/Haring"
+github "davidlari/Haring"
 ```
 
 Afterwards, run the following command:
@@ -79,7 +83,7 @@ carthage update
 + List
 
 `code` or ```code```
-[Links](http://github.com/ivanbruel/Haring/)
+[Links](http://github.com/davidlari/Haring/)
 ```
 
 ## Usage
@@ -140,7 +144,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Acknowledgements
 
-This library is heavily inspired in [TSMarkdownParser](https://github.com/laptobbe/TSMarkdownParser) and also [SwiftyMarkdown](https://github.com/SimonFairbairn/SwiftyMarkdown).
+Haring was derived mostly from MarkdownKit by Ivan Bruel. It was created due to the apparent abandonment of MarkdownKit.
+
+MarkdownKit was heavily inspired by [TSMarkdownParser](https://github.com/laptobbe/TSMarkdownParser) and also [SwiftyMarkdown](https://github.com/SimonFairbairn/SwiftyMarkdown).
 
 Special thanks to [Michael Brown](https://github.com/mluisbrown) for helping out with the [UTF-16 Escaping/Unescaping](https://github.com/ivanbruel/Haring/blob/master/Haring/Classes/Extensions/String%2BUTF16.swift).
 
