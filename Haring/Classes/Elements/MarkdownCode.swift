@@ -30,9 +30,9 @@ open class MarkdownCode: MarkdownCommonElement {
     attributedString.replaceCharacters(in: range, with: unescapedString)
   
     var amendedAttributes = attributes
-    amendedAttributes[NSBackgroundColorAttributeName] = UIColor(red: 0.91, green: 0.91, blue: 0.91, alpha: 1.0)
-    amendedAttributes[NSForegroundColorAttributeName] = UIColor(red: 0.95, green: 0.25, blue: 0.44, alpha: 1.0)
-    amendedAttributes[NSFontAttributeName] = UIFont(name: "Menlo-Regular", size: 16)
+    amendedAttributes[NSAttributedStringKey.backgroundColor] = UIColor(red: 0.91, green: 0.91, blue: 0.91, alpha: 1.0)
+    amendedAttributes[NSAttributedStringKey.foregroundColor] = UIColor(red: 0.95, green: 0.25, blue: 0.44, alpha: 1.0)
+    amendedAttributes[NSAttributedStringKey.font] = UIFont(name: "Menlo-Regular", size: 16)
   
     attributedString.addAttributes(amendedAttributes, range: NSRange(location: range.location, length: unescapedString.count))
   }

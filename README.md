@@ -31,8 +31,11 @@ gem install cocoapods
 To integrate Haring into your Xcode project using CocoaPods, simply add the following line to your Podfile:
 
 ```ruby
-pod "Haring"
+pod 'Haring'
 ```
+Version 2.x supports Xcode 9 and Swift 4.
+Version 1.5 supports Xcode 9 and Swift 3.2. If you need this, add the version: pod 'Haring', '~> 1.5.0'
+Version 1.4 supports Xcode 8 and Swift 3.1. If you need this, add the version: pod 'Haring', '~> 1.4.0'
 
 Afterwards, run the following command:
 
@@ -142,11 +145,15 @@ label.attributedText = markdownParser.parse(markdown)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## About
+
+Haring is maintained by David Lari. Contributions and pull requests are welcomed.
+
 ## Acknowledgements
 
-Haring was derived mostly from MarkdownKit by Ivan Bruel. It was created due to the apparent abandonment of MarkdownKit.
+Haring was derived from MarkdownKit by Ivan Bruel. It was created due to the apparent abandonment of MarkdownKit.
 
-MarkdownKit was heavily inspired by [TSMarkdownParser](https://github.com/laptobbe/TSMarkdownParser) and also [SwiftyMarkdown](https://github.com/SimonFairbairn/SwiftyMarkdown).
+MarkdownKit in turn, was heavily inspired by [TSMarkdownParser](https://github.com/laptobbe/TSMarkdownParser) and also [SwiftyMarkdown](https://github.com/SimonFairbairn/SwiftyMarkdown).
 
 Special thanks to [Michael Brown](https://github.com/mluisbrown) for helping out with the [UTF-16 Escaping/Unescaping](https://github.com/ivanbruel/Haring/blob/master/Haring/Classes/Extensions/String%2BUTF16.swift).
 
