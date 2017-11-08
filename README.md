@@ -25,17 +25,21 @@ Haring is named after PopArt artist [Keith Haring](https://en.wikipedia.org/wiki
 Haring is available through [CocoaPods](http://cocoapods.org). CocoaPods is a dependency manager that automates and simplifies the process of using 3rd-party libraries like Haring in your projects. You can install CocoaPods with the following command:
 
 ```ruby
-gem install cocoapods
-```
-
-To integrate Haring into your Xcode project using CocoaPods, simply add the following line to your Podfile:
-
-```ruby
 pod 'Haring'
 ```
 Version 2.x supports Xcode 9 and Swift 4.
-Version 1.5 supports Xcode 9 and Swift 3.2. If you need this, add the version: pod 'Haring', '~> 1.5.0'
-Version 1.4 supports Xcode 8 and Swift 3.1. If you need this, add the version: pod 'Haring', '~> 1.4.0'
+
+Version 1.5 supports Xcode 9 and Swift 3.2. If you need this, add the version:
+
+```ruby
+pod 'Haring', '~> 1.5.0'
+```
+
+Version 1.4 supports Xcode 8 and Swift 3.1. If you need this, add the version:
+
+```ruby
+pod 'Haring', '\~> 1.4.0'
+```
 
 Afterwards, run the following command:
 
