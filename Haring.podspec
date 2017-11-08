@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Haring'
-  s.version          = '1.5'
+  s.version          = '2.0.1'
   s.summary          = 'Haring is a customizable and extensible Markdown parser for iOS.'
   s.description      = <<-DESC
 Haring is a customizable and extensible Markdown parser for iOS.
