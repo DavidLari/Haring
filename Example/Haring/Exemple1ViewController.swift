@@ -9,14 +9,14 @@
 import UIKit
 import Haring
 
-class ViewController: UIViewController {
+class Exemple1ViewController: UIViewController {
   
   @IBOutlet fileprivate weak var textView: UITextView! {
     didSet {
       textView.delegate = self
     }
   }
-  fileprivate let markdownParser = MarkdownParser()
+  fileprivate let markdownParser = MarkdownParser(font: UIFont.systemFont(ofSize: 16))
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -32,7 +32,7 @@ class ViewController: UIViewController {
   
 }
 
-extension ViewController: UITextViewDelegate {
+extension Exemple1ViewController: UITextViewDelegate {
   
   func textView(_ textView: UITextView, shouldInteractWith URL: URL,
                 in characterRange: NSRange) -> Bool {

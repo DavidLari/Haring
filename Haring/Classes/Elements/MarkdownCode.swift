@@ -34,6 +34,7 @@ open class MarkdownCode: MarkdownCommonElement {
     amendedAttributes[NSAttributedStringKey.foregroundColor] = UIColor(red: 0.95, green: 0.25, blue: 0.44, alpha: 1.0)
     amendedAttributes[NSAttributedStringKey.font] = UIFont(name: "Menlo-Regular", size: 16)
   
-    attributedString.addAttributes(amendedAttributes, range: NSRange(location: range.location, length: unescapedString.count))
+    let newRange = (attributedString.string as NSString).range(of: unescapedString)
+    attributedString.addAttributes(amendedAttributes, range: NSRange(location: range.location, length: newRange.length))
   }
 }
