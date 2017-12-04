@@ -9,7 +9,7 @@
 import UIKit
 import Haring
 
-class ViewController: UIViewController {
+class Exemple1ViewController: UIViewController {
   
   @IBOutlet fileprivate weak var textView: UITextView! {
     didSet {
@@ -32,7 +32,7 @@ class ViewController: UIViewController {
   
 }
 
-extension ViewController: UITextViewDelegate {
+extension Exemple1ViewController: UITextViewDelegate {
   
   func textView(_ textView: UITextView, shouldInteractWith URL: URL,
                 in characterRange: NSRange) -> Bool {
