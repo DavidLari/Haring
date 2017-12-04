@@ -16,7 +16,7 @@ class Exemple1ViewController: UIViewController {
       textView.delegate = self
     }
   }
-  fileprivate let markdownParser = MarkdownParser()
+  fileprivate let markdownParser = MarkdownParser(font: UIFont.systemFont(ofSize: 16))
   
   override func viewDidLoad() {
     super.viewDidLoad()
