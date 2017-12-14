@@ -43,6 +43,7 @@ class Exemple2ViewController: UIViewController {
 
         `code` or ```code```
         [Links](http://github.com/davidlari/Haring/)
+        Email [User at example dot com](mailto:user@example.com)
         """
         textView.attributedText = markdownParser.parse(markdown)
         // Do any additional setup after loading the view, typically from a nib.
