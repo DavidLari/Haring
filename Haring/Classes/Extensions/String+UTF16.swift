@@ -22,13 +22,13 @@ extension String {
   /// Converts each 4 digit characters to its String form  (e.g. "0048" -> "H")
   func unescapeUTF16() -> String? {
     
-    guard count > 4 else { return nil }
+    guard count >= 4 else { return nil }
     
     var utf16Array = [UInt16]()
     stride(from: 0, to: count, by: 4).forEach {
       let startIndex = index(self.startIndex, offsetBy: $0)
       let endIndex = index(startIndex, offsetBy: 4)
-      let hex4 = String(self[startIndex..<endIndex]) //substring(with: startIndex..<endIndex)
+      let hex4 = String(self[startIndex..<endIndex])
       
       if let utf16 = UInt16(hex4, radix: 16) {
         utf16Array.append(utf16)
