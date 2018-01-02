@@ -10,7 +10,7 @@ Haring
 
 Haring is a customizable and extensible Markdown parser for iOS. It supports many of the standard Markdown elements through the use of Regular Expressions. It also allows customization of font and color attributes for all the Markdown elements.
 
-Haring was forked from Ivan Bruel's MarkdownKit which appears to be no longer maintained.
+Haring was forked from Ivan Bruel's [MarkdownKit](https://github.com/ivanbruel/MarkdownKit) which appears to be no longer maintained. You should be able to drop this in as a replacement very easily.
 
 Haring is named after PopArt artist [Keith Haring](https://en.wikipedia.org/wiki/Keith_Haring).
 
@@ -38,7 +38,7 @@ pod 'Haring', '~> 1.5.0'
 Version 1.4 supports Xcode 8 and Swift 3.1. If you need this, add the version:
 
 ```ruby
-pod 'Haring', '\~> 1.4.0'
+pod 'Haring', '~> 1.4.0'
 ```
 
 Afterwards, run the following command:
