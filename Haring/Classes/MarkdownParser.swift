@@ -35,8 +35,8 @@ open class MarkdownParser {
   // MARK: Configuration
   /// Enables or disables detection of URLs even without Markdown format
   open var automaticLinkDetectionEnabled: Bool = true
-  open let font: UIFont
-  open let color: UIColor
+  open var font: UIFont
+  open var color: UIColor
 
   // MARK: Initializer
   public init(font: UIFont = UIFont.systemFont(ofSize: UIFont.smallSystemFontSize),
