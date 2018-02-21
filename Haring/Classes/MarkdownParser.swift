@@ -107,8 +107,8 @@ open class MarkdownParser {
         quote.font = font
         link.font = font
         automaticLink.font = font
-        bold.font = font
-        italic.font = font
+        bold.font = font.bold()
+        italic.font = font.italic()
         code.font = font
 
         if let textColor = textColor {
