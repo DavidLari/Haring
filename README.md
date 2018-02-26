@@ -1,5 +1,3 @@
-![Logo](https://raw.githubusercontent.com/davidlari/Haring/master/Resources/HaringLogo.png)
-
 Haring
 =========
 
