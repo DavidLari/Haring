@@ -14,7 +14,7 @@ Haring is named after PopArt artist [Keith Haring](https://en.wikipedia.org/wiki
 
 ## Screenshot
 
-![Example](https://raw.githubusercontent.com/ivanbruel/MarkdownKit/master/Resources/MarkdownKitExample.png)
+![Example](https://raw.githubusercontent.com/davidlari/Haring/master/Resources/MarkdownKitExample.png)
 
 ## Installation
 
