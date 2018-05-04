@@ -99,4 +99,20 @@ open class MarkdownParser {
         return attributedString
     }
 
+    /// A convenience function to update the `font` and `textColor` for all the built-in elements.
+    open func update(font: UIFont, textColor: UIColor? = nil) {
+        self.font = font
+        header.font = font
+        list.font = font
+        quote.font = font
+        link.font = font
+        automaticLink.font = font
+        bold.font = font.bold()
+        italic.font = font.italic()
+        code.font = font
+
+        if let textColor = textColor {
+            self.color = textColor
+        }
+    }
 }
