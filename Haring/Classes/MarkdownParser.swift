@@ -9,93 +9,103 @@
 import UIKit
 
 open class MarkdownParser {
+    // MARK: Element Arrays
 
-  // MARK: Element Arrays
-  fileprivate var escapingElements: [MarkdownElement]
-  fileprivate var defaultElements: [MarkdownElement]
-  fileprivate var unescapingElements: [MarkdownElement]
+    fileprivate var escapingElements: [MarkdownElement]
+    fileprivate var defaultElements: [MarkdownElement]
+    fileprivate var unescapingElements: [MarkdownElement]
 
-  open var customElements: [MarkdownElement]
+    open var customElements: [MarkdownElement]
 
-  // MARK: Basic Elements
-  open let header: MarkdownHeader
-  open let list: MarkdownList
-  open let quote: MarkdownQuote
-  open let link: MarkdownLink
-  open let automaticLink: MarkdownAutomaticLink
-  open let bold: MarkdownBold
-  open let italic: MarkdownItalic
-  open let code: MarkdownCode
+    // MARK: Basic Elements
 
-  // MARK: Escaping Elements
-  fileprivate var codeEscaping = MarkdownCodeEscaping()
-  fileprivate var escaping = MarkdownEscaping()
-  fileprivate var unescaping = MarkdownUnescaping()
+    open let header: MarkdownHeader
+    open let list: MarkdownList
+    open let quote: MarkdownQuote
+    open let link: MarkdownLink
+    open let automaticLink: MarkdownAutomaticLink
+    open let bold: MarkdownBold
+    open let italic: MarkdownItalic
+    open let code: MarkdownCode
 
-  // MARK: Configuration
-  /// Enables or disables detection of URLs even without Markdown format
-  open var automaticLinkDetectionEnabled: Bool = true
-  open var font: UIFont
-  open var color: UIColor
+    // MARK: Escaping Elements
 
-  // MARK: Initializer
-  public init(font: UIFont = UIFont.systemFont(ofSize: UIFont.smallSystemFontSize),
-              color: UIColor = UIColor.black,
-              automaticLinkDetectionEnabled: Bool = true,
-              customElements: [MarkdownElement] = []) {
-    self.font = font
-    self.color = color
+    fileprivate var codeEscaping = MarkdownCodeEscaping()
+    fileprivate var escaping = MarkdownEscaping()
+    fileprivate var unescaping = MarkdownUnescaping()
 
-    header = MarkdownHeader(font: font)
-    list = MarkdownList(font: font)
-    quote = MarkdownQuote(font: font)
-    link = MarkdownLink(font: font)
-    automaticLink = MarkdownAutomaticLink(font: font)
-    bold = MarkdownBold(font: font)
-    italic = MarkdownItalic(font: font)
-    code = MarkdownCode(font: font)
+    // MARK: Configuration
 
-    self.automaticLinkDetectionEnabled = automaticLinkDetectionEnabled
-    self.escapingElements = [codeEscaping, escaping]
-    self.defaultElements = [header, list, quote, link, automaticLink, bold, italic]
-    self.unescapingElements = [code, unescaping]
-    self.customElements = customElements
-  }
+    /// Enables or disables detection of URLs even without Markdown format
+    open var automaticLinkDetectionEnabled: Bool = true
+    open var font: UIFont
+    open var color: UIColor
 
-  // MARK: Element Extensibility
-  open func addCustomElement(_ element: MarkdownElement) {
-    customElements.append(element)
-  }
+    // MARK: Initializer
 
-  open func removeCustomElement(_ element: MarkdownElement) {
-    guard let index = customElements.index(where: { someElement -> Bool in
-      return element === someElement
-    }) else {
-      return
+    public init(
+        font: UIFont = UIFont.systemFont(ofSize: UIFont.smallSystemFontSize),
+        color: UIColor = UIColor.black,
+        automaticLinkDetectionEnabled: Bool = true,
+        customElements: [MarkdownElement] = []
+    ) {
+        self.font = font
+        self.color = color
+
+        header = MarkdownHeader(font: font)
+        list = MarkdownList(font: font)
+        quote = MarkdownQuote(font: font)
+        link = MarkdownLink(font: font)
+        automaticLink = MarkdownAutomaticLink(font: font)
+        bold = MarkdownBold(font: font)
+        italic = MarkdownItalic(font: font)
+        code = MarkdownCode(font: font)
+
+        self.automaticLinkDetectionEnabled = automaticLinkDetectionEnabled
+        escapingElements = [codeEscaping, escaping]
+        defaultElements = [header, list, quote, link, automaticLink, bold, italic]
+        unescapingElements = [code, unescaping]
+        self.customElements = customElements
     }
-    customElements.remove(at: index)
-  }
 
-  // MARK: Parsing
-  open func parse(_ markdown: String) -> NSAttributedString {
-    return parse(NSAttributedString(string: markdown))
-  }
+    // MARK: Element Extensibility
 
-  open func parse(_ markdown: NSAttributedString) -> NSAttributedString {
-    let attributedString = NSMutableAttributedString(attributedString: markdown)
-    attributedString.addAttribute(NSAttributedStringKey.font, value: font,
-                                  range: NSRange(location: 0, length: attributedString.length))
-    attributedString.addAttribute(NSAttributedStringKey.foregroundColor, value: color,
-                                  range: NSRange(location: 0, length: attributedString.length))
-    var elements: [MarkdownElement] = escapingElements
-    elements.append(contentsOf: defaultElements)
-    elements.append(contentsOf: customElements)
-    elements.append(contentsOf: unescapingElements)
-    elements.forEach { element in
-      if automaticLinkDetectionEnabled || type(of: element) != MarkdownAutomaticLink.self {
-        element.parse(attributedString)
-      }
+    open func addCustomElement(_ element: MarkdownElement) {
+        customElements.append(element)
+    }
+
+    open func removeCustomElement(_ element: MarkdownElement) {
+        guard let index = customElements.index(where: { element === $0 }) else {
+            return
         }
+
+        customElements.remove(at: index)
+    }
+
+    // MARK: Parsing
+
+    open func parse(_ markdown: String) -> NSAttributedString {
+        return parse(NSAttributedString(string: markdown))
+    }
+
+    open func parse(_ markdown: NSAttributedString) -> NSAttributedString {
+        let attributedString = NSMutableAttributedString(attributedString: markdown)
+        attributedString.addAttribute(.font, value: font,
+                                      range: NSRange(location: 0, length: attributedString.length))
+        attributedString.addAttribute(.foregroundColor, value: color,
+                                      range: NSRange(location: 0, length: attributedString.length))
+
+        var elements = escapingElements
+        elements.append(contentsOf: defaultElements)
+        elements.append(contentsOf: customElements)
+        elements.append(contentsOf: unescapingElements)
+
+        elements.forEach { element in
+            if automaticLinkDetectionEnabled || type(of: element) != MarkdownAutomaticLink.self {
+                element.parse(attributedString)
+            }
+        }
+
         return attributedString
     }
 
