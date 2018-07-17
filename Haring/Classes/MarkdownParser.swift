@@ -38,14 +38,14 @@ open class MarkdownParser {
 
     /// Enables or disables detection of URLs even without Markdown format
     open var automaticLinkDetectionEnabled: Bool = true
-    open var font: UIFont
-    open var color: UIColor
+    open var font: UIFont?
+    open var color: UIColor?
 
     // MARK: Initializer
 
     public init(
-        font: UIFont = UIFont.systemFont(ofSize: UIFont.smallSystemFontSize),
-        color: UIColor = UIColor.black,
+        font: UIFont? = UIFont.systemFont(ofSize: UIFont.smallSystemFontSize),
+        color: UIColor? = UIColor.black,
         automaticLinkDetectionEnabled: Bool = true,
         customElements: [MarkdownElement] = []
     ) {
@@ -90,10 +90,15 @@ open class MarkdownParser {
 
     open func parse(_ markdown: NSAttributedString) -> NSAttributedString {
         let attributedString = NSMutableAttributedString(attributedString: markdown)
-        attributedString.addAttribute(.font, value: font,
-                                      range: NSRange(location: 0, length: attributedString.length))
-        attributedString.addAttribute(.foregroundColor, value: color,
-                                      range: NSRange(location: 0, length: attributedString.length))
+        let range = NSRange(location: 0, length: attributedString.length)
+
+        if let font = font {
+            attributedString.addAttribute(.font, value: font, range: range)
+        }
+
+        if let color = color {
+            attributedString.addAttribute(.foregroundColor, value: color, range: range)
+        }
 
         var elements = escapingElements
         elements.append(contentsOf: defaultElements)
@@ -110,19 +115,16 @@ open class MarkdownParser {
     }
 
     /// A convenience function to update the `font` and `textColor` for all the built-in elements.
-    open func update(font: UIFont, textColor: UIColor? = nil) {
+    open func update(font: UIFont?, textColor: UIColor? = nil) {
         self.font = font
         header.font = font
         list.font = font
         quote.font = font
         link.font = font
         automaticLink.font = font
-        bold.font = font.bold()
-        italic.font = font.italic()
+        bold.font = font?.bold()
+        italic.font = font?.italic()
         code.font = font
-
-        if let textColor = textColor {
-            self.color = textColor
-        }
+        color = textColor
     }
 }
