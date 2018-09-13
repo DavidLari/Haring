@@ -34,11 +34,11 @@ open class MarkdownHeader: MarkdownLevelElement {
       attributedString.deleteCharacters(in: range)
   }
 
-  open func attributesForLevel(_ level: Int) -> [NSAttributedStringKey: Any] {
+  open func attributesForLevel(_ level: Int) -> [NSAttributedString.Key: Any] {
     var attributes = self.attributes
     if let font = font {
       let headerFontSize: CGFloat = font.pointSize + (CGFloat(6 - level) * CGFloat(fontIncrease))
-      attributes[NSAttributedStringKey.font] = font.withSize(headerFontSize)
+      attributes[NSAttributedString.Key.font] = font.withSize(headerFontSize)
     }
     return attributes
   }

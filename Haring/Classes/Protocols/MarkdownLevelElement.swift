@@ -17,7 +17,7 @@ public protocol MarkdownLevelElement: MarkdownElement, MarkdownStyle {
   
   func formatText(_ attributedString: NSMutableAttributedString, range: NSRange, level: Int)
   func addAttributes(_ attributedString: NSMutableAttributedString, range: NSRange, level: Int)
-  func attributesForLevel(_ level: Int) -> [NSAttributedStringKey: Any]
+  func attributesForLevel(_ level: Int) -> [NSAttributedString.Key: Any]
 }
 
 public extension MarkdownLevelElement {
@@ -31,7 +31,7 @@ public extension MarkdownLevelElement {
     attributedString.addAttributes(attributesForLevel(level - 1), range: range)
   }
   
-  func attributesForLevel(_ level: Int) -> [NSAttributedStringKey: Any] {
+  func attributesForLevel(_ level: Int) -> [NSAttributedString.Key: Any] {
     return self.attributes
   }
   
