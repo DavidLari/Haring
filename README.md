@@ -25,7 +25,15 @@ Haring is available through [CocoaPods](http://cocoapods.org). CocoaPods is a de
 ```ruby
 pod 'Haring'
 ```
-Version 2.x supports Xcode 9 and Swift 4.
+Version 2.1.x supports Xcode 10 and Swift 4.2 SDK.
+
+Older versions are not updated but if you need to support older Swift projects, the versions see below.
+
+Version 2.0.x supports Xcode 9 and Swift 4.0 through 4.1x.
+
+```ruby
+pod 'Haring', '~> 2.0.0'
+```
 
 Version 1.5 supports Xcode 9 and Swift 3.2. If you need this, add the version:
 
