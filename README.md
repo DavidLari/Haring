@@ -6,6 +6,8 @@ Haring
 [![License](https://img.shields.io/cocoapods/l/Haring.svg?style=flat)](http://cocoapods.org/pods/Haring)
 [![Platform](https://img.shields.io/cocoapods/p/Haring.svg?style=flat)](http://cocoapods.org/pods/Haring)
 
+>IMPORTANT NOTE: Haring is a fork of [MarkdownKit](https://github.com/bmoliveira/MarkdownKit) that was created when that project had been abandoned. MarkdownKit has a new owner and has been actively developed to apply most of the changes that Haring has and a few more. However, it still has only one developer. Therefore, this fork will still be maintained for the time being. However, there is no roadmap to ehancing Haring. Also, the project I was using Haring in has been cancelled, so I no longer have a vested interest in maintaining it. We do welcome pull requests though, and we have 3 maintainers. -- David Lari
+
 Haring is a customizable and extensible Markdown parser for iOS. It supports many of the standard Markdown elements through the use of Regular Expressions. It also allows customization of font and color attributes for all the Markdown elements.
 
 Haring was forked from Ivan Bruel's [MarkdownKit](https://github.com/ivanbruel/MarkdownKit) which appears to be no longer maintained. You should be able to drop this in as a replacement very easily.
