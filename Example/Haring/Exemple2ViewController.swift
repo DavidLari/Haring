@@ -61,7 +61,7 @@ extension Exemple2ViewController: UITextViewDelegate {
     func textView(_ textView: UITextView,
                   shouldInteractWith URL: URL,
                   in characterRange: NSRange) -> Bool {
-        UIApplication.shared.openURL(URL)
+        UIApplication.shared.open(URL)
         return true
     }
     

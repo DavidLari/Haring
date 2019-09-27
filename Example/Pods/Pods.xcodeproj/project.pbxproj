@@ -7,348 +7,351 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B4AB0FCF592D2D2BA5535E4047CF103 /* MarkdownCommonElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51291E17F60CA68814ABEA8DE8A8E8DB /* MarkdownCommonElement.swift */; };
-		0DCA1E76E678A16F35741C8C8B139E61 /* Haring-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A49365A49D9E34E21EFAE23159045383 /* Haring-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15F5B1693B7E250021D9F73313C588CD /* Pods-Haring_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A8A16BF25D3EED1BDEDE1C60BFED28 /* Pods-Haring_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2769E8D80EC655CD383ACD40E9DAA368 /* MarkdownHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E13CA4BF5DA2C5BE06EA262C09693B /* MarkdownHeader.swift */; };
-		2A3B940D16B48676872C2D47DF2DE49F /* MarkdownItalic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE2C274ECA79A509C2CECA2A57F6D90 /* MarkdownItalic.swift */; };
-		3062AA7216AFB2981AEC2ACDAB2AF229 /* MarkdownAutomaticLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32948F796358A162964D55D59398E301 /* MarkdownAutomaticLink.swift */; };
-		3583D4A470B69DB89E224CAE0E61C076 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
-		35F4B76D5EE6893EEABB5F31E1CA81B6 /* MarkdownElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FC62C0AB079C480AA839FC8E2F7E6D /* MarkdownElement.swift */; };
-		3DECB34377D005410E95A92DFDC6A352 /* UIFont+Traits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442C1FF52E42976A7444120D1B0E5F95 /* UIFont+Traits.swift */; };
-		40EB06F1F38F9654C1AFB2C024DE274E /* MarkdownEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCCF7B4D2C15E917DA7C9418A294A54 /* MarkdownEscaping.swift */; };
-		49DBAC259A9436C8E601A246A70D5DDD /* MarkdownUnescaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2217217452DEDC927C5CB2F824F60 /* MarkdownUnescaping.swift */; };
-		4AB9A32C733C02EAC3DF963921B85FF6 /* Pods-Haring_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C179D98275D6B72775BA3D06CAD0F61 /* Pods-Haring_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BA72E9513DF8540AC666BC963E5E789 /* MarkdownLinkElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65520C4799529A9A899B5CB86F96C16E /* MarkdownLinkElement.swift */; };
-		4CD0F9E82832ECF88EBC612FDE812848 /* MarkdownParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08396BEB5CE8733EF93C630FEF494D2 /* MarkdownParser.swift */; };
-		640295165C642D68C841301358CFE995 /* MarkdownCodeEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB68ECF1745720211469510E0B6BEED7 /* MarkdownCodeEscaping.swift */; };
-		6A95EA9E259311E409E4832650319C34 /* Haring-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 543CA0D84BEAFA923CAD0FF2B597A3AF /* Haring-dummy.m */; };
-		7A5F8E5F83A4ECC163EC689327E195B9 /* Pods-Haring_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C71C393F0B8E6B708E0B0BD2692EC5D2 /* Pods-Haring_Example-dummy.m */; };
-		7C30A9A036BACE071C2232970FC16A0D /* MarkdownLevelElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3457FE244178722260912762E29F73E9 /* MarkdownLevelElement.swift */; };
-		88C30E1231C6EDE6EBC70B81385CDA95 /* String+UTF16.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD28D7CFA3CDE1E22B33C3AC2938E5F0 /* String+UTF16.swift */; };
-		8CBF747FA83EBD31AF3C45C8BF3DA850 /* MarkdownBold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D573611A6212351868CEC3321446F07 /* MarkdownBold.swift */; };
-		93BA6B646239D6AA222D2806C19C24E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		95805D10C67C57495F1D0C79C16C3C3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		9B3DE529A21CB30E8576865B70F81044 /* MarkdownStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69C97244CFFE9D2635F1C99FB46A4E2 /* MarkdownStyle.swift */; };
-		B12BD10106EA5E94E0BB6C5A881AABB0 /* MarkdownCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013C606785D3E50DE58DBF26309C0DBF /* MarkdownCode.swift */; };
-		B1D9BD6D5C71DE86A2AC49630C2BB68D /* Pods-Haring_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A3FE0F89027F65BA3054BF745E2A49 /* Pods-Haring_Tests-dummy.m */; };
-		BC953DE542D95586F45B3B101D3C66BA /* MarkdownQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBA231A0B76C7AA986B5E45FD8893E1 /* MarkdownQuote.swift */; };
-		E4FCEE9A497A651DDF9C60F56A8B137E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		F0BFD1E9800C9F8CE636A355FC1B0184 /* MarkdownList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419BCBEC055B43DD13A6F898A1876CA /* MarkdownList.swift */; };
-		F77D4444D2AA23AC1775A1812F01CAFB /* MarkdownLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB0BE26F9AE1BB7317319D2819AAE9F /* MarkdownLink.swift */; };
+		0A0A4BCF8A04AF20533CA84010761B30 /* MarkdownLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E87289E76EB8D75B9175BDB6B74C36 /* MarkdownLink.swift */; };
+		114B1F86B8E69B1B45825CF1F95FACE3 /* MarkdownParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E84A2DE82FE46941D4E7BDEEC975D0 /* MarkdownParser.swift */; };
+		176FFC2CDC04A3BB9E6427F4145447EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		185A4DA607D4D6BAA5D8F6E495BD5164 /* MarkdownList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FED448A260BC40174E8D82BABAFE0B /* MarkdownList.swift */; };
+		2DD256B7B4E016E48C3B7FCA080AE564 /* MarkdownLinkElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7FFD6251D95C2F9A29F524F19DA97E /* MarkdownLinkElement.swift */; };
+		32AFD29343525773B25C3A5BC9955FF8 /* String+UTF16.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0BDB0E9393DE82BD4EBE525BBA96C /* String+UTF16.swift */; };
+		49D5D1275A82C0A235EA27F6FA71FDDF /* MarkdownEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21C9760D8EFEB089965AB059884D7CC /* MarkdownEscaping.swift */; };
+		52900307CD28F533E816FCAB7F51C34F /* MarkdownCodeEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117E8D8D814225131254340B3057310A /* MarkdownCodeEscaping.swift */; };
+		57A02B220B3AE7650544B9B3B7CDE8A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		5B8451AE8FADFF871B5725EA4E43ACB2 /* Pods-Haring_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39B9A1CBF5C89AEFE61C01D020C7ED14 /* Pods-Haring_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DA74C7A4D349332B1A698D527385004 /* Pods-Haring_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F6D5EAA9D4C88B68C9461AE065763 /* Pods-Haring_Tests-dummy.m */; };
+		6F03E1B813926E28DB02A44A83A2EF09 /* MarkdownQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8205AA233AAC4C6C78CA5DE62A99894 /* MarkdownQuote.swift */; };
+		7260E67C3A501F1FAF205ED4DB535BBF /* MarkdownLevelElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8049580768A4031A86C2DBBFD65BDC53 /* MarkdownLevelElement.swift */; };
+		77E2D295D1D3F96A223F9A31ADD7077F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		7F875589FF7E2CA7270AB687CB1C5DE2 /* Haring-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7E2214D3B91099AFA28B85F2A4D152 /* Haring-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F9069BBBDD4461C22861315EA78F751 /* MarkdownUnescaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AE1479F87668973D3F9429DEBC754E /* MarkdownUnescaping.swift */; };
+		84159A1AEDB5B9D65950A413F452C61A /* MarkdownStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11828AE4DF60C740F2B01ABA498D5EA /* MarkdownStyle.swift */; };
+		8492381AE44591FE4BC7E879F2DDB2AE /* MarkdownBold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF5863CCFECDAE09406C4F8CD23BA0 /* MarkdownBold.swift */; };
+		8C10A9CA8DD080B7C27927093B037347 /* MarkdownElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333EFA744054A815A8297E005C01F11 /* MarkdownElement.swift */; };
+		9AB22503CBEF8B9D5E420B8E21946BD9 /* MarkdownCommonElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3D5CAF4DACC48585C389A980A0082 /* MarkdownCommonElement.swift */; };
+		B21BBDDD371F6E76929C2722AE2557A5 /* Haring-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB61A2E2EE558A6E9D17284D300AF968 /* Haring-dummy.m */; };
+		B22B47FEB34C0B003E9DCB4D7ADEF53D /* MarkdownItalic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7ECBD26AD84E73CCFFAACFBBDFD484 /* MarkdownItalic.swift */; };
+		BC1740FEA112A1C56D30B8509B54DBF3 /* Pods-Haring_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEBB89EFDF4CB5C39B22500C7A32A807 /* Pods-Haring_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD0706427C42AE15F167D3FFE016AC2B /* MarkdownHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD68951AB54A0646D2AA4C4DB640397F /* MarkdownHeader.swift */; };
+		DFC1DD846F099AA19792F3D59BAF923C /* MarkdownAutomaticLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840CB4AFA3D0F0AC2C33BEE3B4D32A66 /* MarkdownAutomaticLink.swift */; };
+		E7976DF60DE6D4DB3FB2A3E59A59A76A /* Pods-Haring_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BA301175C1B18C708A5C255D0D9F11 /* Pods-Haring_Example-dummy.m */; };
+		F4BC25D01F516E96B8F109059769030C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		F5C4E8E395DF67427577666E267C1CFF /* UIFont+Traits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716CC12B55E0FF15E7A3237EA0226218 /* UIFont+Traits.swift */; };
+		F781AF00B8D79E2748CC284119FA01A8 /* MarkdownCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77668DFC9B8D7E4A3CE2B71DC49F32A2 /* MarkdownCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EC17F801CE5A89B73B2F591C30967770 /* PBXContainerItemProxy */ = {
+		1662453E8E752E5F8558C488BBA820A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3C19A590FD8D7E706D3715FB47281667;
+			remoteGlobalIDString = 226105F00153072170DF777E9342ECDF;
 			remoteInfo = Haring;
+		};
+		E1B32341947C4FA824B0A02EEFD177A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842F0BF5BAB4C3E84A545C02008F86FF;
+			remoteInfo = "Pods-Haring_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		013C606785D3E50DE58DBF26309C0DBF /* MarkdownCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownCode.swift; sourceTree = "<group>"; };
-		01B8F0125B4EDB2BB41F9535CBAB0DA5 /* Haring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Haring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		06774B99B020CA42CBEE66785276E0F8 /* Pods-Haring_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Haring_Example-resources.sh"; sourceTree = "<group>"; };
-		0C06B5503A13886343DCEE886F53B36C /* Pods-Haring_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Haring_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		0D573611A6212351868CEC3321446F07 /* MarkdownBold.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownBold.swift; sourceTree = "<group>"; };
-		13696D8269EB53460CD79C1FA73D767E /* Pods-Haring_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Haring_Example.release.xcconfig"; sourceTree = "<group>"; };
-		136C2AA2E723997CE719C7A749255AE9 /* Pods-Haring_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Haring_Tests.modulemap"; sourceTree = "<group>"; };
-		1A5CF93BBC528DB1160168F2CC4D63D0 /* Pods-Haring_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Haring_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		25665BB044C296061314E481B86821FF /* Pods_Haring_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Haring_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		26B158CA36F99E9ECDDF9140A5827FE3 /* Pods-Haring_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Haring_Example-frameworks.sh"; sourceTree = "<group>"; };
-		31FC62C0AB079C480AA839FC8E2F7E6D /* MarkdownElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownElement.swift; sourceTree = "<group>"; };
-		32948F796358A162964D55D59398E301 /* MarkdownAutomaticLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownAutomaticLink.swift; sourceTree = "<group>"; };
-		3457FE244178722260912762E29F73E9 /* MarkdownLevelElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownLevelElement.swift; sourceTree = "<group>"; };
-		34E2F037F0C1C5BADBC6C938B07DD8CA /* Pods-Haring_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Haring_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3C77E5442C877E81254DDC5F4A576440 /* Pods-Haring_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Haring_Example.modulemap"; sourceTree = "<group>"; };
-		3F2BEBA2DD1BFD6ECBE9C4DF4AA6FE6E /* Haring.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Haring.xcconfig; sourceTree = "<group>"; };
-		442C1FF52E42976A7444120D1B0E5F95 /* UIFont+Traits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+Traits.swift"; sourceTree = "<group>"; };
-		4F4FFF07CD085EEF0BA0ABB1AB9F27D6 /* Pods-Haring_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Haring_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		51291E17F60CA68814ABEA8DE8A8E8DB /* MarkdownCommonElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownCommonElement.swift; sourceTree = "<group>"; };
-		543CA0D84BEAFA923CAD0FF2B597A3AF /* Haring-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Haring-dummy.m"; sourceTree = "<group>"; };
-		56F737E148609AC4A590BEF33F264E69 /* Haring.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Haring.modulemap; sourceTree = "<group>"; };
-		61D335C057448C0203BD3AD6EF0FB924 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65520C4799529A9A899B5CB86F96C16E /* MarkdownLinkElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownLinkElement.swift; sourceTree = "<group>"; };
-		7C179D98275D6B72775BA3D06CAD0F61 /* Pods-Haring_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Haring_Example-umbrella.h"; sourceTree = "<group>"; };
-		8FE2C274ECA79A509C2CECA2A57F6D90 /* MarkdownItalic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownItalic.swift; sourceTree = "<group>"; };
-		8FF509353EF79A57E5F8B6EE9068BB92 /* Pods_Haring_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Haring_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		913A41B49CC19256D40AA9C04618297B /* Pods-Haring_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Haring_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A4214C744916AED40CD11A1E81C957D /* Pods-Haring_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Haring_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9CCCF7B4D2C15E917DA7C9418A294A54 /* MarkdownEscaping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownEscaping.swift; sourceTree = "<group>"; };
-		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A49365A49D9E34E21EFAE23159045383 /* Haring-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Haring-umbrella.h"; sourceTree = "<group>"; };
-		ACBA231A0B76C7AA986B5E45FD8893E1 /* MarkdownQuote.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownQuote.swift; sourceTree = "<group>"; };
-		B08396BEB5CE8733EF93C630FEF494D2 /* MarkdownParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownParser.swift; sourceTree = "<group>"; };
-		BCB0BE26F9AE1BB7317319D2819AAE9F /* MarkdownLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownLink.swift; sourceTree = "<group>"; };
-		C3A7AA4CAC9BB6380210ECAD478F3BF8 /* Pods-Haring_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Haring_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C419BCBEC055B43DD13A6F898A1876CA /* MarkdownList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownList.swift; sourceTree = "<group>"; };
-		C71C393F0B8E6B708E0B0BD2692EC5D2 /* Pods-Haring_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Haring_Example-dummy.m"; sourceTree = "<group>"; };
-		CB68ECF1745720211469510E0B6BEED7 /* MarkdownCodeEscaping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownCodeEscaping.swift; sourceTree = "<group>"; };
-		D8A592150FD43F6A6299C6070692B982 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9DC8FA99A6183F1A2A06BB539AAC40E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD28D7CFA3CDE1E22B33C3AC2938E5F0 /* String+UTF16.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+UTF16.swift"; sourceTree = "<group>"; };
-		DEF2217217452DEDC927C5CB2F824F60 /* MarkdownUnescaping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownUnescaping.swift; sourceTree = "<group>"; };
-		DF0C1B8E886413331E13F9640C67371E /* Pods-Haring_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Haring_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E0E13CA4BF5DA2C5BE06EA262C09693B /* MarkdownHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownHeader.swift; sourceTree = "<group>"; };
-		E5A8A16BF25D3EED1BDEDE1C60BFED28 /* Pods-Haring_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Haring_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E69C97244CFFE9D2635F1C99FB46A4E2 /* MarkdownStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownStyle.swift; sourceTree = "<group>"; };
-		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		F8A10CF001472943932ADBD3B6130A51 /* Pods-Haring_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Haring_Tests-resources.sh"; sourceTree = "<group>"; };
-		F9A3FE0F89027F65BA3054BF745E2A49 /* Pods-Haring_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Haring_Tests-dummy.m"; sourceTree = "<group>"; };
-		FD1DC9D81152642D68C4715D10E72A7A /* Haring-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Haring-prefix.pch"; sourceTree = "<group>"; };
+		03DA592C6C27FEFD955B3B23AD74F36D /* Pods_Haring_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Haring_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0402503A4B923E9995A0B6AEEF7CA2A8 /* Haring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Haring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0487055AE34D232870E8F79CD81C7481 /* Pods-Haring_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Haring_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B7C888BE98B3C66D815506133060888 /* Pods-Haring_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Haring_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		116DDC6499BA5E1CFD1F7DCC8DB75E2B /* Pods-Haring_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Haring_Example.release.xcconfig"; sourceTree = "<group>"; };
+		117E8D8D814225131254340B3057310A /* MarkdownCodeEscaping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownCodeEscaping.swift; sourceTree = "<group>"; };
+		15843D97D744607DDFB09F178DC8D05F /* Pods-Haring_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Haring_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1EBE709EC380C725FBA26FA7EB39EF24 /* Pods-Haring_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Haring_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2316338A1ECCA6FB4BD657FE0DFD9606 /* Pods-Haring_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Haring_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		250C60E0D7A69306884B13292E56C36A /* Pods-Haring_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Haring_Tests.modulemap"; sourceTree = "<group>"; };
+		2D7FFD6251D95C2F9A29F524F19DA97E /* MarkdownLinkElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownLinkElement.swift; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		38FA8572FECAAB84271CAD1C6CE43A27 /* Haring-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Haring-Info.plist"; sourceTree = "<group>"; };
+		39B9A1CBF5C89AEFE61C01D020C7ED14 /* Pods-Haring_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Haring_Example-umbrella.h"; sourceTree = "<group>"; };
+		3A6F6D5EAA9D4C88B68C9461AE065763 /* Pods-Haring_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Haring_Tests-dummy.m"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4BD3D5CAF4DACC48585C389A980A0082 /* MarkdownCommonElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownCommonElement.swift; sourceTree = "<group>"; };
+		505F88ACFCF986D5EF5BFF3635E5B08E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		63FB6184BE72666AD0AAB8E7EC0BF668 /* Pods-Haring_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Haring_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		66039A77D254510F08C6E0A46565F137 /* Haring.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Haring.modulemap; sourceTree = "<group>"; };
+		67C968FC95DB5FA997FE59FB7B52C643 /* Pods-Haring_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Haring_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		716CC12B55E0FF15E7A3237EA0226218 /* UIFont+Traits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+Traits.swift"; sourceTree = "<group>"; };
+		7333EFA744054A815A8297E005C01F11 /* MarkdownElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownElement.swift; sourceTree = "<group>"; };
+		74FED448A260BC40174E8D82BABAFE0B /* MarkdownList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownList.swift; sourceTree = "<group>"; };
+		77668DFC9B8D7E4A3CE2B71DC49F32A2 /* MarkdownCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownCode.swift; sourceTree = "<group>"; };
+		7C7E2214D3B91099AFA28B85F2A4D152 /* Haring-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Haring-umbrella.h"; sourceTree = "<group>"; };
+		7F6797A04181229FBB1B3C8C1AE741C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8049580768A4031A86C2DBBFD65BDC53 /* MarkdownLevelElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownLevelElement.swift; sourceTree = "<group>"; };
+		82FF5863CCFECDAE09406C4F8CD23BA0 /* MarkdownBold.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownBold.swift; sourceTree = "<group>"; };
+		840CB4AFA3D0F0AC2C33BEE3B4D32A66 /* MarkdownAutomaticLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownAutomaticLink.swift; sourceTree = "<group>"; };
+		90D19230D3D35CEE9D2383DCF987662C /* Haring.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Haring.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		994DD1BA64C0DAEFE85752C28AB2310E /* Pods_Haring_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Haring_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A11828AE4DF60C740F2B01ABA498D5EA /* MarkdownStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownStyle.swift; sourceTree = "<group>"; };
+		A7E84A2DE82FE46941D4E7BDEEC975D0 /* MarkdownParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownParser.swift; path = Haring/Classes/MarkdownParser.swift; sourceTree = "<group>"; };
+		B0BA301175C1B18C708A5C255D0D9F11 /* Pods-Haring_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Haring_Example-dummy.m"; sourceTree = "<group>"; };
+		B21C9760D8EFEB089965AB059884D7CC /* MarkdownEscaping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownEscaping.swift; sourceTree = "<group>"; };
+		B6AE1479F87668973D3F9429DEBC754E /* MarkdownUnescaping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownUnescaping.swift; sourceTree = "<group>"; };
+		BC7ECBD26AD84E73CCFFAACFBBDFD484 /* MarkdownItalic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownItalic.swift; sourceTree = "<group>"; };
+		BE10924C5249372FF30D63BA349EDC2B /* Pods-Haring_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Haring_Example-Info.plist"; sourceTree = "<group>"; };
+		C24923EEB7A22BC6DCBBD1C5740E219D /* Haring.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Haring.xcconfig; sourceTree = "<group>"; };
+		C3E87289E76EB8D75B9175BDB6B74C36 /* MarkdownLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownLink.swift; sourceTree = "<group>"; };
+		CEBB89EFDF4CB5C39B22500C7A32A807 /* Pods-Haring_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Haring_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CEE4C39751AEBF44936566B5B9D5F71F /* Pods-Haring_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Haring_Example.modulemap"; sourceTree = "<group>"; };
+		D8205AA233AAC4C6C78CA5DE62A99894 /* MarkdownQuote.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownQuote.swift; sourceTree = "<group>"; };
+		DB61A2E2EE558A6E9D17284D300AF968 /* Haring-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Haring-dummy.m"; sourceTree = "<group>"; };
+		DD68951AB54A0646D2AA4C4DB640397F /* MarkdownHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownHeader.swift; sourceTree = "<group>"; };
+		EAA489951031BFD895891E976A0AEB82 /* Pods-Haring_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Haring_Tests-Info.plist"; sourceTree = "<group>"; };
+		F2D0BDB0E9393DE82BD4EBE525BBA96C /* String+UTF16.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+UTF16.swift"; sourceTree = "<group>"; };
+		F83B0F27CB00C50D8A01D55D75BEF3E7 /* Haring-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Haring-prefix.pch"; sourceTree = "<group>"; };
+		F8534C6F776241651E55F7B5BB969B67 /* Pods-Haring_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Haring_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0AD75E41719B39A5CB44F8BAE0EDD6F8 /* Frameworks */ = {
+		5646FA19F7C61EA8DC946A7AA0606C3A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93BA6B646239D6AA222D2806C19C24E1 /* Foundation.framework in Frameworks */,
+				77E2D295D1D3F96A223F9A31ADD7077F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91BFF088EEAB1512198BC333568C6CD7 /* Frameworks */ = {
+		87687C805B4FE1F555010F197EB469D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95805D10C67C57495F1D0C79C16C3C3E /* Foundation.framework in Frameworks */,
+				176FFC2CDC04A3BB9E6427F4145447EA /* Foundation.framework in Frameworks */,
+				F4BC25D01F516E96B8F109059769030C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7CEB3386844FCBF63FF4A6A041D515C /* Frameworks */ = {
+		A2B81F01DB5D295EF8738C84F69B076D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4FCEE9A497A651DDF9C60F56A8B137E /* Foundation.framework in Frameworks */,
-				3583D4A470B69DB89E224CAE0E61C076 /* UIKit.framework in Frameworks */,
+				57A02B220B3AE7650544B9B3B7CDE8A2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01640867821390571442174B5AE09B07 /* Escaping */ = {
+		04F4F3B50E62872A90851BE47E13FE62 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CB68ECF1745720211469510E0B6BEED7 /* MarkdownCodeEscaping.swift */,
-				9CCCF7B4D2C15E917DA7C9418A294A54 /* MarkdownEscaping.swift */,
-				DEF2217217452DEDC927C5CB2F824F60 /* MarkdownUnescaping.swift */,
+				EC7DD2341DFC590A15BEDF01EB0F4A3D /* Haring */,
 			);
-			path = Escaping;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		1BFFBF71D6B11214946DDFF0E696976C /* Support Files */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D8A592150FD43F6A6299C6070692B982 /* Info.plist */,
-				56F737E148609AC4A590BEF33F264E69 /* Haring.modulemap */,
-				3F2BEBA2DD1BFD6ECBE9C4DF4AA6FE6E /* Haring.xcconfig */,
-				543CA0D84BEAFA923CAD0FF2B597A3AF /* Haring-dummy.m */,
-				FD1DC9D81152642D68C4715D10E72A7A /* Haring-prefix.pch */,
-				A49365A49D9E34E21EFAE23159045383 /* Haring-umbrella.h */,
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		501AB5757532D0FCB799CC79B0981A4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0402503A4B923E9995A0B6AEEF7CA2A8 /* Haring.framework */,
+				994DD1BA64C0DAEFE85752C28AB2310E /* Pods_Haring_Example.framework */,
+				03DA592C6C27FEFD955B3B23AD74F36D /* Pods_Haring_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		537A92F7A4AEC4C5DE114410C7178C6E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66039A77D254510F08C6E0A46565F137 /* Haring.modulemap */,
+				C24923EEB7A22BC6DCBBD1C5740E219D /* Haring.xcconfig */,
+				DB61A2E2EE558A6E9D17284D300AF968 /* Haring-dummy.m */,
+				38FA8572FECAAB84271CAD1C6CE43A27 /* Haring-Info.plist */,
+				F83B0F27CB00C50D8A01D55D75BEF3E7 /* Haring-prefix.pch */,
+				7C7E2214D3B91099AFA28B85F2A4D152 /* Haring-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Haring";
 			sourceTree = "<group>";
 		};
-		22C5C88200DFED379B8EC802BE845E1E /* Haring */ = {
+		60A3E1D2C58A836F7453F92F37E8A62F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				23DB020D13C32520817C5DF38BE35041 /* Classes */,
+				90D19230D3D35CEE9D2383DCF987662C /* Haring.podspec */,
+				505F88ACFCF986D5EF5BFF3635E5B08E /* LICENSE */,
+				7F6797A04181229FBB1B3C8C1AE741C2 /* README.md */,
 			);
-			path = Haring;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		23DB020D13C32520817C5DF38BE35041 /* Classes */ = {
+		686EECC7CF162D84E0598E6D05E5E7AE /* Elements */ = {
 			isa = PBXGroup;
 			children = (
-				B08396BEB5CE8733EF93C630FEF494D2 /* MarkdownParser.swift */,
-				639726F4A4021DC0252448F3FFFE9A0B /* Elements */,
-				A72F1DABB47DFA481A8340387BCF9E34 /* Extensions */,
-				3E8BA49C97B209226C3D10FB39F3E3D9 /* Protocols */,
+				840CB4AFA3D0F0AC2C33BEE3B4D32A66 /* MarkdownAutomaticLink.swift */,
+				82FF5863CCFECDAE09406C4F8CD23BA0 /* MarkdownBold.swift */,
+				77668DFC9B8D7E4A3CE2B71DC49F32A2 /* MarkdownCode.swift */,
+				DD68951AB54A0646D2AA4C4DB640397F /* MarkdownHeader.swift */,
+				BC7ECBD26AD84E73CCFFAACFBBDFD484 /* MarkdownItalic.swift */,
+				C3E87289E76EB8D75B9175BDB6B74C36 /* MarkdownLink.swift */,
+				74FED448A260BC40174E8D82BABAFE0B /* MarkdownList.swift */,
+				D8205AA233AAC4C6C78CA5DE62A99894 /* MarkdownQuote.swift */,
+				E1D82862DC9397D580A895796A370F54 /* Escaping */,
 			);
-			path = Classes;
+			name = Elements;
+			path = Haring/Classes/Elements;
 			sourceTree = "<group>";
 		};
-		24745547C50FE5F6AFE9F8244D54F9D0 /* Pods-Haring_Tests */ = {
+		7A1B6B4E5E62EBC1E58FCB8A4B1D12E3 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D9DC8FA99A6183F1A2A06BB539AAC40E /* Info.plist */,
-				136C2AA2E723997CE719C7A749255AE9 /* Pods-Haring_Tests.modulemap */,
-				9A4214C744916AED40CD11A1E81C957D /* Pods-Haring_Tests-acknowledgements.markdown */,
-				34E2F037F0C1C5BADBC6C938B07DD8CA /* Pods-Haring_Tests-acknowledgements.plist */,
-				F9A3FE0F89027F65BA3054BF745E2A49 /* Pods-Haring_Tests-dummy.m */,
-				0C06B5503A13886343DCEE886F53B36C /* Pods-Haring_Tests-frameworks.sh */,
-				F8A10CF001472943932ADBD3B6130A51 /* Pods-Haring_Tests-resources.sh */,
-				E5A8A16BF25D3EED1BDEDE1C60BFED28 /* Pods-Haring_Tests-umbrella.h */,
-				913A41B49CC19256D40AA9C04618297B /* Pods-Haring_Tests.debug.xcconfig */,
-				1A5CF93BBC528DB1160168F2CC4D63D0 /* Pods-Haring_Tests.release.xcconfig */,
+				B3FC2E8CBEB9D037C89832265D8ED888 /* Pods-Haring_Example */,
+				F3BA4992FDA0F1E6588B9D48AA5D8A03 /* Pods-Haring_Tests */,
 			);
-			name = "Pods-Haring_Tests";
-			path = "Target Support Files/Pods-Haring_Tests";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3E8BA49C97B209226C3D10FB39F3E3D9 /* Protocols */ = {
+		9EC67B0E6F3E11E6E495E94D282CF55D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				51291E17F60CA68814ABEA8DE8A8E8DB /* MarkdownCommonElement.swift */,
-				31FC62C0AB079C480AA839FC8E2F7E6D /* MarkdownElement.swift */,
-				3457FE244178722260912762E29F73E9 /* MarkdownLevelElement.swift */,
-				65520C4799529A9A899B5CB86F96C16E /* MarkdownLinkElement.swift */,
-				E69C97244CFFE9D2635F1C99FB46A4E2 /* MarkdownStyle.swift */,
+				F2D0BDB0E9393DE82BD4EBE525BBA96C /* String+UTF16.swift */,
+				716CC12B55E0FF15E7A3237EA0226218 /* UIFont+Traits.swift */,
 			);
-			path = Protocols;
+			name = Extensions;
+			path = Haring/Classes/Extensions;
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		B3FC2E8CBEB9D037C89832265D8ED888 /* Pods-Haring_Example */ = {
 			isa = PBXGroup;
 			children = (
-				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4BE9437601FE4228E2B2EC877A8379AF /* Haring */ = {
-			isa = PBXGroup;
-			children = (
-				22C5C88200DFED379B8EC802BE845E1E /* Haring */,
-				1BFFBF71D6B11214946DDFF0E696976C /* Support Files */,
-			);
-			name = Haring;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		639726F4A4021DC0252448F3FFFE9A0B /* Elements */ = {
-			isa = PBXGroup;
-			children = (
-				32948F796358A162964D55D59398E301 /* MarkdownAutomaticLink.swift */,
-				0D573611A6212351868CEC3321446F07 /* MarkdownBold.swift */,
-				013C606785D3E50DE58DBF26309C0DBF /* MarkdownCode.swift */,
-				E0E13CA4BF5DA2C5BE06EA262C09693B /* MarkdownHeader.swift */,
-				8FE2C274ECA79A509C2CECA2A57F6D90 /* MarkdownItalic.swift */,
-				BCB0BE26F9AE1BB7317319D2819AAE9F /* MarkdownLink.swift */,
-				C419BCBEC055B43DD13A6F898A1876CA /* MarkdownList.swift */,
-				ACBA231A0B76C7AA986B5E45FD8893E1 /* MarkdownQuote.swift */,
-				01640867821390571442174B5AE09B07 /* Escaping */,
-			);
-			path = Elements;
-			sourceTree = "<group>";
-		};
-		6BAFD9BC60EF96EBDEFACFC498409C2F /* Pods-Haring_Example */ = {
-			isa = PBXGroup;
-			children = (
-				61D335C057448C0203BD3AD6EF0FB924 /* Info.plist */,
-				3C77E5442C877E81254DDC5F4A576440 /* Pods-Haring_Example.modulemap */,
-				DF0C1B8E886413331E13F9640C67371E /* Pods-Haring_Example-acknowledgements.markdown */,
-				4F4FFF07CD085EEF0BA0ABB1AB9F27D6 /* Pods-Haring_Example-acknowledgements.plist */,
-				C71C393F0B8E6B708E0B0BD2692EC5D2 /* Pods-Haring_Example-dummy.m */,
-				26B158CA36F99E9ECDDF9140A5827FE3 /* Pods-Haring_Example-frameworks.sh */,
-				06774B99B020CA42CBEE66785276E0F8 /* Pods-Haring_Example-resources.sh */,
-				7C179D98275D6B72775BA3D06CAD0F61 /* Pods-Haring_Example-umbrella.h */,
-				C3A7AA4CAC9BB6380210ECAD478F3BF8 /* Pods-Haring_Example.debug.xcconfig */,
-				13696D8269EB53460CD79C1FA73D767E /* Pods-Haring_Example.release.xcconfig */,
+				CEE4C39751AEBF44936566B5B9D5F71F /* Pods-Haring_Example.modulemap */,
+				67C968FC95DB5FA997FE59FB7B52C643 /* Pods-Haring_Example-acknowledgements.markdown */,
+				F8534C6F776241651E55F7B5BB969B67 /* Pods-Haring_Example-acknowledgements.plist */,
+				B0BA301175C1B18C708A5C255D0D9F11 /* Pods-Haring_Example-dummy.m */,
+				1EBE709EC380C725FBA26FA7EB39EF24 /* Pods-Haring_Example-frameworks.sh */,
+				BE10924C5249372FF30D63BA349EDC2B /* Pods-Haring_Example-Info.plist */,
+				39B9A1CBF5C89AEFE61C01D020C7ED14 /* Pods-Haring_Example-umbrella.h */,
+				63FB6184BE72666AD0AAB8E7EC0BF668 /* Pods-Haring_Example.debug.xcconfig */,
+				116DDC6499BA5E1CFD1F7DCC8DB75E2B /* Pods-Haring_Example.release.xcconfig */,
 			);
 			name = "Pods-Haring_Example";
 			path = "Target Support Files/Pods-Haring_Example";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A358C39405024D371B35578689E1E21D /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				86ACFC1268D9D8ED7EC753496187A2DD /* Products */,
-				F43EDDCB1371B5D52BE35ABBF8B6272C /* Targets Support Files */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				04F4F3B50E62872A90851BE47E13FE62 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				501AB5757532D0FCB799CC79B0981A4E /* Products */,
+				7A1B6B4E5E62EBC1E58FCB8A4B1D12E3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		86ACFC1268D9D8ED7EC753496187A2DD /* Products */ = {
+		D9AAF38FC4C4D0FA5D044C4528748C1D /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				01B8F0125B4EDB2BB41F9535CBAB0DA5 /* Haring.framework */,
-				8FF509353EF79A57E5F8B6EE9068BB92 /* Pods_Haring_Example.framework */,
-				25665BB044C296061314E481B86821FF /* Pods_Haring_Tests.framework */,
+				4BD3D5CAF4DACC48585C389A980A0082 /* MarkdownCommonElement.swift */,
+				7333EFA744054A815A8297E005C01F11 /* MarkdownElement.swift */,
+				8049580768A4031A86C2DBBFD65BDC53 /* MarkdownLevelElement.swift */,
+				2D7FFD6251D95C2F9A29F524F19DA97E /* MarkdownLinkElement.swift */,
+				A11828AE4DF60C740F2B01ABA498D5EA /* MarkdownStyle.swift */,
 			);
-			name = Products;
+			name = Protocols;
+			path = Haring/Classes/Protocols;
 			sourceTree = "<group>";
 		};
-		A358C39405024D371B35578689E1E21D /* Development Pods */ = {
+		E1D82862DC9397D580A895796A370F54 /* Escaping */ = {
 			isa = PBXGroup;
 			children = (
-				4BE9437601FE4228E2B2EC877A8379AF /* Haring */,
+				117E8D8D814225131254340B3057310A /* MarkdownCodeEscaping.swift */,
+				B21C9760D8EFEB089965AB059884D7CC /* MarkdownEscaping.swift */,
+				B6AE1479F87668973D3F9429DEBC754E /* MarkdownUnescaping.swift */,
 			);
-			name = "Development Pods";
+			path = Escaping;
 			sourceTree = "<group>";
 		};
-		A72F1DABB47DFA481A8340387BCF9E34 /* Extensions */ = {
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				DD28D7CFA3CDE1E22B33C3AC2938E5F0 /* String+UTF16.swift */,
-				442C1FF52E42976A7444120D1B0E5F95 /* UIFont+Traits.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
-				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F43EDDCB1371B5D52BE35ABBF8B6272C /* Targets Support Files */ = {
+		EC7DD2341DFC590A15BEDF01EB0F4A3D /* Haring */ = {
 			isa = PBXGroup;
 			children = (
-				6BAFD9BC60EF96EBDEFACFC498409C2F /* Pods-Haring_Example */,
-				24745547C50FE5F6AFE9F8244D54F9D0 /* Pods-Haring_Tests */,
+				A7E84A2DE82FE46941D4E7BDEEC975D0 /* MarkdownParser.swift */,
+				686EECC7CF162D84E0598E6D05E5E7AE /* Elements */,
+				9EC67B0E6F3E11E6E495E94D282CF55D /* Extensions */,
+				60A3E1D2C58A836F7453F92F37E8A62F /* Pod */,
+				D9AAF38FC4C4D0FA5D044C4528748C1D /* Protocols */,
+				537A92F7A4AEC4C5DE114410C7178C6E /* Support Files */,
 			);
-			name = "Targets Support Files";
+			name = Haring;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F3BA4992FDA0F1E6588B9D48AA5D8A03 /* Pods-Haring_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				250C60E0D7A69306884B13292E56C36A /* Pods-Haring_Tests.modulemap */,
+				0487055AE34D232870E8F79CD81C7481 /* Pods-Haring_Tests-acknowledgements.markdown */,
+				2316338A1ECCA6FB4BD657FE0DFD9606 /* Pods-Haring_Tests-acknowledgements.plist */,
+				3A6F6D5EAA9D4C88B68C9461AE065763 /* Pods-Haring_Tests-dummy.m */,
+				EAA489951031BFD895891E976A0AEB82 /* Pods-Haring_Tests-Info.plist */,
+				CEBB89EFDF4CB5C39B22500C7A32A807 /* Pods-Haring_Tests-umbrella.h */,
+				15843D97D744607DDFB09F178DC8D05F /* Pods-Haring_Tests.debug.xcconfig */,
+				0B7C888BE98B3C66D815506133060888 /* Pods-Haring_Tests.release.xcconfig */,
+			);
+			name = "Pods-Haring_Tests";
+			path = "Target Support Files/Pods-Haring_Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		12EB20ADE848ABB62B2934B13BF29537 /* Headers */ = {
+		6D3D8C0421F1C1F8F432E0E3B799F3CC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AB9A32C733C02EAC3DF963921B85FF6 /* Pods-Haring_Example-umbrella.h in Headers */,
+				5B8451AE8FADFF871B5725EA4E43ACB2 /* Pods-Haring_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		140218E94904BB09C2FBC7B3DBD464FD /* Headers */ = {
+		7B1DA05959FB16F0ADFD2003B199A299 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DCA1E76E678A16F35741C8C8B139E61 /* Haring-umbrella.h in Headers */,
+				BC1740FEA112A1C56D30B8509B54DBF3 /* Pods-Haring_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B6A62EC99475B07A4970FE73D059021 /* Headers */ = {
+		996C9347530C7EBA593F2A919DC27B5A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15F5B1693B7E250021D9F73313C588CD /* Pods-Haring_Tests-umbrella.h in Headers */,
+				7F875589FF7E2CA7270AB687CB1C5DE2 /* Haring-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3C19A590FD8D7E706D3715FB47281667 /* Haring */ = {
+		226105F00153072170DF777E9342ECDF /* Haring */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EFDA8C0215476E69F13435809D03379 /* Build configuration list for PBXNativeTarget "Haring" */;
+			buildConfigurationList = 159162F4A100FC2AE7A1490AAABD27DE /* Build configuration list for PBXNativeTarget "Haring" */;
 			buildPhases = (
-				1E4DB2027458A648F2BBC326CF441C90 /* Sources */,
-				D7CEB3386844FCBF63FF4A6A041D515C /* Frameworks */,
-				140218E94904BB09C2FBC7B3DBD464FD /* Headers */,
+				996C9347530C7EBA593F2A919DC27B5A /* Headers */,
+				3528D9301D7B710AE5150533F2C61597 /* Sources */,
+				87687C805B4FE1F555010F197EB469D0 /* Frameworks */,
+				BF68ADA15236CC0B095BE2F0BDD38313 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -356,243 +359,218 @@
 			);
 			name = Haring;
 			productName = Haring;
-			productReference = 01B8F0125B4EDB2BB41F9535CBAB0DA5 /* Haring.framework */;
+			productReference = 0402503A4B923E9995A0B6AEEF7CA2A8 /* Haring.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		60E13D84B72634F588C17B326A7AF45D /* Pods-Haring_Tests */ = {
+		842F0BF5BAB4C3E84A545C02008F86FF /* Pods-Haring_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 817C33F631C2145C59F2703F61806279 /* Build configuration list for PBXNativeTarget "Pods-Haring_Tests" */;
+			buildConfigurationList = DC1DACA4EA5C2150839F7088B1FA37D3 /* Build configuration list for PBXNativeTarget "Pods-Haring_Example" */;
 			buildPhases = (
-				AFCCAB960A769D8BA5FE13F9069779F2 /* Sources */,
-				0AD75E41719B39A5CB44F8BAE0EDD6F8 /* Frameworks */,
-				2B6A62EC99475B07A4970FE73D059021 /* Headers */,
+				6D3D8C0421F1C1F8F432E0E3B799F3CC /* Headers */,
+				D897E8BF637A50992425CEBC4315FDB0 /* Sources */,
+				A2B81F01DB5D295EF8738C84F69B076D /* Frameworks */,
+				A7D4EC34180DBB948C240B2C60D980E3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-Haring_Tests";
-			productName = "Pods-Haring_Tests";
-			productReference = 25665BB044C296061314E481B86821FF /* Pods_Haring_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8F6CDC32B73BC5AC077C50A33113DF39 /* Pods-Haring_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 58F32B3B3CED1C32E904DAF053146241 /* Build configuration list for PBXNativeTarget "Pods-Haring_Example" */;
-			buildPhases = (
-				CE8590105B153A7A3BEEC435C1133C97 /* Sources */,
-				91BFF088EEAB1512198BC333568C6CD7 /* Frameworks */,
-				12EB20ADE848ABB62B2934B13BF29537 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C32C1CDDE4B9D9AABA99A02F3DBE7786 /* PBXTargetDependency */,
+				9A5F1AF2E438A13C4A276F36C1021B0A /* PBXTargetDependency */,
 			);
 			name = "Pods-Haring_Example";
 			productName = "Pods-Haring_Example";
-			productReference = 8FF509353EF79A57E5F8B6EE9068BB92 /* Pods_Haring_Example.framework */;
+			productReference = 994DD1BA64C0DAEFE85752C28AB2310E /* Pods_Haring_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA63F2CC3D51A15FCC5BF451C6262E7C /* Pods-Haring_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0420DBE430B4305EB6A15919C6382AC2 /* Build configuration list for PBXNativeTarget "Pods-Haring_Tests" */;
+			buildPhases = (
+				7B1DA05959FB16F0ADFD2003B199A299 /* Headers */,
+				E449A27DA931A5BD16DD903C49E5746D /* Sources */,
+				5646FA19F7C61EA8DC946A7AA0606C3A /* Frameworks */,
+				AEB02F03DA1DEB603BF03720A379B506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39D78720E663372EC8165369ECCC4F81 /* PBXTargetDependency */,
+			);
+			name = "Pods-Haring_Tests";
+			productName = "Pods-Haring_Tests";
+			productReference = 03DA592C6C27FEFD955B3B23AD74F36D /* Pods_Haring_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0940;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					226105F00153072170DF777E9342ECDF = {
+						LastSwiftMigration = 1100;
+					};
+				};
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 86ACFC1268D9D8ED7EC753496187A2DD /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 501AB5757532D0FCB799CC79B0981A4E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3C19A590FD8D7E706D3715FB47281667 /* Haring */,
-				8F6CDC32B73BC5AC077C50A33113DF39 /* Pods-Haring_Example */,
-				60E13D84B72634F588C17B326A7AF45D /* Pods-Haring_Tests */,
+				226105F00153072170DF777E9342ECDF /* Haring */,
+				842F0BF5BAB4C3E84A545C02008F86FF /* Pods-Haring_Example */,
+				DA63F2CC3D51A15FCC5BF451C6262E7C /* Pods-Haring_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		A7D4EC34180DBB948C240B2C60D980E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB02F03DA1DEB603BF03720A379B506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF68ADA15236CC0B095BE2F0BDD38313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		1E4DB2027458A648F2BBC326CF441C90 /* Sources */ = {
+		3528D9301D7B710AE5150533F2C61597 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3062AA7216AFB2981AEC2ACDAB2AF229 /* MarkdownAutomaticLink.swift in Sources */,
-				8CBF747FA83EBD31AF3C45C8BF3DA850 /* MarkdownBold.swift in Sources */,
-				B12BD10106EA5E94E0BB6C5A881AABB0 /* MarkdownCode.swift in Sources */,
-				640295165C642D68C841301358CFE995 /* MarkdownCodeEscaping.swift in Sources */,
-				0B4AB0FCF592D2D2BA5535E4047CF103 /* MarkdownCommonElement.swift in Sources */,
-				35F4B76D5EE6893EEABB5F31E1CA81B6 /* MarkdownElement.swift in Sources */,
-				40EB06F1F38F9654C1AFB2C024DE274E /* MarkdownEscaping.swift in Sources */,
-				2769E8D80EC655CD383ACD40E9DAA368 /* MarkdownHeader.swift in Sources */,
-				2A3B940D16B48676872C2D47DF2DE49F /* MarkdownItalic.swift in Sources */,
-				6A95EA9E259311E409E4832650319C34 /* Haring-dummy.m in Sources */,
-				7C30A9A036BACE071C2232970FC16A0D /* MarkdownLevelElement.swift in Sources */,
-				F77D4444D2AA23AC1775A1812F01CAFB /* MarkdownLink.swift in Sources */,
-				4BA72E9513DF8540AC666BC963E5E789 /* MarkdownLinkElement.swift in Sources */,
-				F0BFD1E9800C9F8CE636A355FC1B0184 /* MarkdownList.swift in Sources */,
-				4CD0F9E82832ECF88EBC612FDE812848 /* MarkdownParser.swift in Sources */,
-				BC953DE542D95586F45B3B101D3C66BA /* MarkdownQuote.swift in Sources */,
-				9B3DE529A21CB30E8576865B70F81044 /* MarkdownStyle.swift in Sources */,
-				49DBAC259A9436C8E601A246A70D5DDD /* MarkdownUnescaping.swift in Sources */,
-				88C30E1231C6EDE6EBC70B81385CDA95 /* String+UTF16.swift in Sources */,
-				3DECB34377D005410E95A92DFDC6A352 /* UIFont+Traits.swift in Sources */,
+				B21BBDDD371F6E76929C2722AE2557A5 /* Haring-dummy.m in Sources */,
+				DFC1DD846F099AA19792F3D59BAF923C /* MarkdownAutomaticLink.swift in Sources */,
+				8492381AE44591FE4BC7E879F2DDB2AE /* MarkdownBold.swift in Sources */,
+				F781AF00B8D79E2748CC284119FA01A8 /* MarkdownCode.swift in Sources */,
+				52900307CD28F533E816FCAB7F51C34F /* MarkdownCodeEscaping.swift in Sources */,
+				9AB22503CBEF8B9D5E420B8E21946BD9 /* MarkdownCommonElement.swift in Sources */,
+				8C10A9CA8DD080B7C27927093B037347 /* MarkdownElement.swift in Sources */,
+				49D5D1275A82C0A235EA27F6FA71FDDF /* MarkdownEscaping.swift in Sources */,
+				BD0706427C42AE15F167D3FFE016AC2B /* MarkdownHeader.swift in Sources */,
+				B22B47FEB34C0B003E9DCB4D7ADEF53D /* MarkdownItalic.swift in Sources */,
+				7260E67C3A501F1FAF205ED4DB535BBF /* MarkdownLevelElement.swift in Sources */,
+				0A0A4BCF8A04AF20533CA84010761B30 /* MarkdownLink.swift in Sources */,
+				2DD256B7B4E016E48C3B7FCA080AE564 /* MarkdownLinkElement.swift in Sources */,
+				185A4DA607D4D6BAA5D8F6E495BD5164 /* MarkdownList.swift in Sources */,
+				114B1F86B8E69B1B45825CF1F95FACE3 /* MarkdownParser.swift in Sources */,
+				6F03E1B813926E28DB02A44A83A2EF09 /* MarkdownQuote.swift in Sources */,
+				84159A1AEDB5B9D65950A413F452C61A /* MarkdownStyle.swift in Sources */,
+				7F9069BBBDD4461C22861315EA78F751 /* MarkdownUnescaping.swift in Sources */,
+				32AFD29343525773B25C3A5BC9955FF8 /* String+UTF16.swift in Sources */,
+				F5C4E8E395DF67427577666E267C1CFF /* UIFont+Traits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AFCCAB960A769D8BA5FE13F9069779F2 /* Sources */ = {
+		D897E8BF637A50992425CEBC4315FDB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1D9BD6D5C71DE86A2AC49630C2BB68D /* Pods-Haring_Tests-dummy.m in Sources */,
+				E7976DF60DE6D4DB3FB2A3E59A59A76A /* Pods-Haring_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE8590105B153A7A3BEEC435C1133C97 /* Sources */ = {
+		E449A27DA931A5BD16DD903C49E5746D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A5F8E5F83A4ECC163EC689327E195B9 /* Pods-Haring_Example-dummy.m in Sources */,
+				5DA74C7A4D349332B1A698D527385004 /* Pods-Haring_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C32C1CDDE4B9D9AABA99A02F3DBE7786 /* PBXTargetDependency */ = {
+		39D78720E663372EC8165369ECCC4F81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Haring_Example";
+			target = 842F0BF5BAB4C3E84A545C02008F86FF /* Pods-Haring_Example */;
+			targetProxy = E1B32341947C4FA824B0A02EEFD177A4 /* PBXContainerItemProxy */;
+		};
+		9A5F1AF2E438A13C4A276F36C1021B0A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Haring;
-			target = 3C19A590FD8D7E706D3715FB47281667 /* Haring */;
-			targetProxy = EC17F801CE5A89B73B2F591C30967770 /* PBXContainerItemProxy */;
+			target = 226105F00153072170DF777E9342ECDF /* Haring */;
+			targetProxy = 1662453E8E752E5F8558C488BBA820A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		132A715F33E1EBE87DD120458C026E91 /* Debug */ = {
+		20C50E535E354D5754E50B38FF049333 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F2BEBA2DD1BFD6ECBE9C4DF4AA6FE6E /* Haring.xcconfig */;
+			baseConfigurationReference = 116DDC6499BA5E1CFD1F7DCC8DB75E2B /* Pods-Haring_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Haring/Haring-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Haring/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Haring/Haring.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Haring;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4F4C9DF2F65F0F65BE40F6E129BBD92A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A5CF93BBC528DB1160168F2CC4D63D0 /* Pods-Haring_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Haring_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Haring_Example/Pods-Haring_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Haring_Tests/Pods-Haring_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MODULEMAP_FILE = "Target Support Files/Pods-Haring_Example/Pods-Haring_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Haring_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		7F6A420FCADE6EA2D103D8D218CC30EF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F2BEBA2DD1BFD6ECBE9C4DF4AA6FE6E /* Haring.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Haring/Haring-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Haring/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Haring/Haring.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Haring;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+		60A7F9B4A8E92A5B16CC2AA887D9FE07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -600,52 +578,92 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+		670E346BF92BDE5DBC52E561E2F65BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B7C888BE98B3C66D815506133060888 /* Pods-Haring_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Haring_Tests/Pods-Haring_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Haring_Tests/Pods-Haring_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E1F3D358966F24610AD782F313B4C40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -653,17 +671,18 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -672,48 +691,114 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		A57C0B3C5FA84996AE09F1BDF1F4CB9B /* Debug */ = {
+		B8DB160B637A3F1303CC90B36CFFA815 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 913A41B49CC19256D40AA9C04618297B /* Pods-Haring_Tests.debug.xcconfig */;
+			baseConfigurationReference = C24923EEB7A22BC6DCBBD1C5740E219D /* Haring.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Haring_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Haring/Haring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Haring/Haring-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Haring/Haring.modulemap";
+				PRODUCT_MODULE_NAME = Haring;
+				PRODUCT_NAME = Haring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B9FB45E7EE4363098EC86176F2342B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63FB6184BE72666AD0AAB8E7EC0BF668 /* Pods-Haring_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Haring_Example/Pods-Haring_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Haring_Example/Pods-Haring_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4F1EDE749E5269B6C86A19EA61FC44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15843D97D744607DDFB09F178DC8D05F /* Pods-Haring_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Haring_Tests/Pods-Haring_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Haring_Tests/Pods-Haring_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Haring_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -722,119 +807,78 @@
 			};
 			name = Debug;
 		};
-		D14C2474A5CE4F191EF32B40E032568F /* Release */ = {
+		E257D705461D5050BBC66DE54555F0DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13696D8269EB53460CD79C1FA73D767E /* Pods-Haring_Example.release.xcconfig */;
+			baseConfigurationReference = C24923EEB7A22BC6DCBBD1C5740E219D /* Haring.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Haring_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Haring/Haring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Haring/Haring-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Haring_Example/Pods-Haring_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Haring_Example;
+				MODULEMAP_FILE = "Target Support Files/Haring/Haring.modulemap";
+				PRODUCT_MODULE_NAME = Haring;
+				PRODUCT_NAME = Haring;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		F6CD783FC6DDA952B870045BCE0EBCC4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3A7AA4CAC9BB6380210ECAD478F3BF8 /* Pods-Haring_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Haring_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Haring_Example/Pods-Haring_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Haring_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		0420DBE430B4305EB6A15919C6382AC2 /* Build configuration list for PBXNativeTarget "Pods-Haring_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
-				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+				C4F1EDE749E5269B6C86A19EA61FC44A /* Debug */,
+				670E346BF92BDE5DBC52E561E2F65BD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58F32B3B3CED1C32E904DAF053146241 /* Build configuration list for PBXNativeTarget "Pods-Haring_Example" */ = {
+		159162F4A100FC2AE7A1490AAABD27DE /* Build configuration list for PBXNativeTarget "Haring" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F6CD783FC6DDA952B870045BCE0EBCC4 /* Debug */,
-				D14C2474A5CE4F191EF32B40E032568F /* Release */,
+				B8DB160B637A3F1303CC90B36CFFA815 /* Debug */,
+				E257D705461D5050BBC66DE54555F0DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5EFDA8C0215476E69F13435809D03379 /* Build configuration list for PBXNativeTarget "Haring" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				132A715F33E1EBE87DD120458C026E91 /* Debug */,
-				7F6A420FCADE6EA2D103D8D218CC30EF /* Release */,
+				7E1F3D358966F24610AD782F313B4C40 /* Debug */,
+				60A7F9B4A8E92A5B16CC2AA887D9FE07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		817C33F631C2145C59F2703F61806279 /* Build configuration list for PBXNativeTarget "Pods-Haring_Tests" */ = {
+		DC1DACA4EA5C2150839F7088B1FA37D3 /* Build configuration list for PBXNativeTarget "Pods-Haring_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A57C0B3C5FA84996AE09F1BDF1F4CB9B /* Debug */,
-				4F4C9DF2F65F0F65BE40F6E129BBD92A /* Release */,
+				B9FB45E7EE4363098EC86176F2342B48 /* Debug */,
+				20C50E535E354D5754E50B38FF049333 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

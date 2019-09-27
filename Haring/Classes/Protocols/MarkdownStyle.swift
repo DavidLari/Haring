@@ -12,12 +12,12 @@ import UIKit
 public protocol MarkdownStyle {
     var font: UIFont? { get }
     var color: UIColor? { get }
-    var attributes: [NSAttributedStringKey: Any] { get }
+    var attributes: [NSAttributedString.Key: Any] { get }
 }
 
 public extension MarkdownStyle {
-    var attributes: [NSAttributedStringKey: Any] {
-        var attributes = [NSAttributedStringKey: Any]()
+    var attributes: [NSAttributedString.Key: Any] {
+        var attributes = [NSAttributedString.Key: Any]()
         if let font = font {
             attributes[.font] = font
         }
