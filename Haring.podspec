@@ -16,7 +16,7 @@ all the Markdown elements.
   s.social_media_url = 'https://twitter.com/davidlari'
 
   s.ios.deployment_target = '8.0'
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
   s.source_files = 'Haring/Classes/**/*'
   s.frameworks = 'UIKit'
 end
