@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Haring'
-  s.version          = '2.1'
+  s.version          = '2.1.1'
   s.summary          = 'Haring is a customizable and extensible Markdown parser for iOS.'
   s.description      = <<-DESC
 Haring is a customizable and extensible Markdown parser for iOS.
@@ -16,7 +16,7 @@ all the Markdown elements.
   s.social_media_url = 'https://twitter.com/davidlari'
 
   s.ios.deployment_target = '8.0'
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
   s.source_files = 'Haring/Classes/**/*'
   s.frameworks = 'UIKit'
 end
